@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row1"><h2>Lets's Play Dice</h2></div>
+        <div class="row2">
+            <div class="player-info"><h1>Player-<span id="player-num">1</span> To Play</h1></div>
+        </div>
+        </div>
+        <div class="row3">
+            <div class="game-panal">
+                <div><h1>Player-1</h1></div>
+                <div class="score" id="player-1-score"> <h1>0</h1></div>
+               <input type="button" value="Roll Now" class="button" disabled id="player-1-btn"> </input>
+            </div>
+            <div class="picture">
+               <img id="dice-img" src="./public/1.png" alt="">
+            </div>
+        <div class="game-panal">
+            <div>
+                <h1>Player-2</h1>
+            </div>
+            <div class="score" id="player-2-score">
+                <h1>0</h1>
+            </div>
+            <button class="button" id="player-2-btn" disabled>Roll Now </button>
+        </div>
+        </div>
+        <div class="row4">
+            <button type="button" class="reset-button" id="reset-btn" disabled>Reset</button>
+        </div>
+   
+    
+    
+    <script src="./script.js"></script>
+</body>
+</html>

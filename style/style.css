@@ -1,0 +1,66 @@
+.container{
+   display: flex;
+  flex-flow: column;
+   align-items: center;
+    
+}
+.row1{
+    color: green;
+    margin: 20px;
+}
+.game-panal{
+   display: flex;
+   flex-flow: column;
+   justify-content: space-around;
+   align-items: center;
+   text-align: center;
+   
+    
+}
+.button{
+   width: 150px;
+   margin: 19px;
+   height: 40px;
+   color: white;
+   background-color: green;
+   box-shadow: black 1px 3px;
+   border-radius: 5px;
+}
+.row3{
+   display: flex;
+   justify-content: space-evenly;
+   
+}
+.player-info{
+   margin: 0 0 50px 0;
+}
+.row4{
+   text-align: center;
+}
+.reset-button{
+   margin: 100px;
+   height: 50px;
+   width: 150px;
+   color: white;
+   background-color: red;
+   box-shadow: black 1px 3px;
+   border-radius: 5px;
+}
+img{
+   height: 250px;
+}
+.button:disabled{
+   background-color: gray;
+   color: black;
+   cursor: not-allowed;
+
+}
+.reset-button:disabled{
+   background-color: gray;
+   color: black;
+   cursor: not-allowed;
+
+}
+   
+
+
